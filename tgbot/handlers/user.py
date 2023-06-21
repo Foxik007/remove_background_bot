@@ -1,6 +1,4 @@
-
 from aiogram import Dispatcher
-from aiogram.dispatcher.filters import Text
 from aiogram.types import Message
 
 from tgbot.keyboards.reply import keyboard

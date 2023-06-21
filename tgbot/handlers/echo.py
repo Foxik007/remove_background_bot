@@ -13,7 +13,7 @@ async def bot_echo(message: types.Message):
 
     await message.answer('\n'.join(text))
 
-
+#======Основная логика проекта======
 async def handle_docs_photo(message):
 
     await message.photo[-1].download(f'input_images/text.jpg')
@@ -39,20 +39,6 @@ async def handle_docs_photo(message):
             await message.reply_animation(photo, caption='Надеюсь тебе понравилось😇')
 
 
-
-
-# async def bot_echo_all(message: types.Message, state: FSMContext):
-#     state_name = await state.get_state()
-#     text = [
-#         f'Эхо в состоянии {hcode(state_name)}',
-#         'Содержание сообщения:',
-#         hcode(message.text)
-#     ]
-#     await message.answer('\n'.join(text))
-#
-
-
 def register_echo(dp: Dispatcher):
     dp.register_message_handler(bot_echo)
     dp.register_message_handler(handle_docs_photo,content_types='photo')
-    # dp.register_message_handler(bot_echo_all, state='*',content_types=types.ContentTypes.ANY)

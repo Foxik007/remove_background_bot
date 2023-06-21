@@ -5,7 +5,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from rembg import remove
 from PIL import Image
 from pathlib import Path
-from data_base import sqllite_db
+
 
 
 async def menu(message: types.Message):
