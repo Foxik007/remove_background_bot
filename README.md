@@ -1,9 +1,9 @@
 # remove_background_TGbot
  Телеграм бот убирающий задний фон с фотографии
  
- <b>Пример:</b>
-![text](https://github.com/Foxik007/remove_background_bot/assets/85826675/6fd31bf6-d395-4221-b937-8f3dcc9fb053)
-![text_output](https://github.com/Foxik007/remove_background_bot/assets/85826675/83326dd1-f9e2-45d8-a47a-1a6a7e694792)
+![247538896-6fd31bf6-d395-4221-b937-8f3dcc9fb053](https://github.com/Foxik007/remove_background_bot/assets/85826675/b6d0be7c-4b02-456a-a8e8-22e1bdfc192c)
+
+![247538904-83326dd1-f9e2-45d8-a47a-1a6a7e694792](https://github.com/Foxik007/remove_background_bot/assets/85826675/615895aa-9419-4efd-ba60-b512168f4736)
 
 
 
